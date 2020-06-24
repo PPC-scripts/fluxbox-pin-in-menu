@@ -6,8 +6,8 @@ Note: to run .desktop files directly from Fluxbox menu, this script creates a hi
 (ex: ~/.desktop-run.sh full_path_to_the_file.desktop)
 
 # Instalation:
- Right click https://raw.githubusercontent.com/PPC-scripts/fluxbox-pin-in-menu/master/fb-pin-in-menu.sh and download it to a folder without special characters on your computer.
- Make it executable.
+ Right click https://raw.githubusercontent.com/PPC-scripts/fluxbox-pin-in-menu/master/fb-pin-in-menu.sh  (or in case you are running MX Fluxbox: https://raw.githubusercontent.com/PPC-scripts/fluxbox-pin-in-menu/master/fb-pin-in-menu.sh) and download it to a folder without special characters, on your computer.
+ Make it executable (select the file and in properties choose "executable" or "run as application").
  
  NOTE: you can't run the script from a folder with special characters or it won't create the needed desktop-run.sh correctly: the menu entries will be created but they won't run (strange, I know- I think it's because the script needs to check it's own name and path to generate desktop-run.sh and that does not work well with foregein characters)
   If for some reason that happens, please remove the empty hidden file ".desktop-run.sh" from your home folder, and try again.
