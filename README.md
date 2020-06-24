@@ -6,7 +6,7 @@ Note: to run .desktop files directly from Fluxbox menu, this script creates a hi
 (ex: ~/.desktop-run.sh full_path_to_the_file.desktop)
 
 # Instalation:
- Download the -sh file to your computer. Make it executable.
+ Download the .sh file to your computer. Make it executable.
  
  NOTE: you can't run the script from a folder with special characters or it won't create the needed desktop-run.sh correctly: the menu entries will be created but they won't run.
   If for some reason that happens, please remove the empty hidden file ".desktop-run.sh" from your home folder, and try again.
@@ -14,6 +14,6 @@ Note: to run .desktop files directly from Fluxbox menu, this script creates a hi
 
 Explanation: why do I go to the complicated process of using a script to run .desktop files from the menu instead of also extracting the Exec file from the .desktop files themselves? Simple: so the script can unpin only the applications it pins. based in the string ".desktop", leaving the rest of the menu untouched.
 
-# Dependecies:
+# Dependencies:
  Fluxbox
  
